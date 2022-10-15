@@ -2,20 +2,7 @@ import { Component } from "react";
 import { Bar } from "react-chartjs-2";
 import axios from "axios";
 import ChartDataLabels from 'chartjs-plugin-datalabels';
-
-const teamColors = {
-    alfa: '#B12039',
-    alphatauri: '#4E7C9B',
-    alpine: '#2293D1',
-    aston_martin: '#2D826D',
-    ferrari: '#ED1C24',
-    haas: '#B6BABD',
-    mclaren: '#F58020',
-    mercedes: '#6CD3BF',
-    red_bull: '#1E5BC6',
-    williams: '#37BEDD'
-}
-
+import teamColors from '../assets/teamColors';
 export default class TeamStandings extends Component {
     constructor(props) {
         super(props)
